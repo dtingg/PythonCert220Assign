@@ -1,6 +1,4 @@
-##########
-Assignment
-##########
+# Assignment
 
 Welcome to the HP Norton Project! The first thing our development team is trying to accomplish is to improve some of Norton Furniture's existing code. Your first assignment will
 be to look at a prototype inventory management system they had been working on internally, align the code to the best practices outlined in PEP8 and implement both unit and integration testing.
@@ -8,14 +6,14 @@ be to look at a prototype inventory management system they had been working on i
 Here is what you need to do:
 ----------------------------
 
-#. Download the code for the inventory management system and place it in a folder called *inventory_management*.
-#. Evaluate the code using Pylint by running the following command from *outside* of the *inventory_management* folder. Use this command:
+1. Download the code for the inventory management system and place it in a folder called *inventory_management*.
+2. Evaluate the code using Pylint by running the following command from *outside* of the *inventory_management* folder. Use this command:
 
         python -m pylint ./inventory_management
 
-#. Fix all of the issues reported by Pylint up to the point where Pylint gives the code a grade of 10.
-#. Create a file called *test_unit.py* that will be outside of the *inventory_management* directory. You will need to add unit tests for all classes in the inventory management system to this file.
-#. Run coverage analysis on the *inventory_management* code using *test_unit.py*. Coverage must be 90% or higher for each individual file. Use the following commands.
+3. Fix all of the issues reported by Pylint up to the point where Pylint gives the code a grade of 10.
+4. Create a file called *test_unit.py* that will be outside of the *inventory_management* directory. You will need to add unit tests for all classes in the inventory management system to this file.
+5. Run coverage analysis on the *inventory_management* code using *test_unit.py*. Coverage must be 90% or higher for each individual file. Use the following commands.
     - Coverage run:
 
             python -m coverage run --source=inventory_management -m unittest test_unit.py
@@ -26,7 +24,7 @@ Here is what you need to do:
 
         Update *test_unit.py* as required to attain 90% coverage.
 
-#. Create a file called *test_integration.py* that runs Inventory Management tests as a whole.
+6. Create a file called *test_integration.py* that runs Inventory Management tests as a whole.
 
 Other requirements:
 -------------------
