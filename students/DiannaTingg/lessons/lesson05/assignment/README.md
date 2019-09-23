@@ -11,20 +11,20 @@ be stored.
 
 You implementation should address the following requirements:
 
-#. As a HP Norton *customer* I want to see a list of all products available for
+1. As a HP Norton *customer* I want to see a list of all products available for
    rent so that I can make a rental choice.
-#. As a HP Norton *salesperson* I want to see a list of all of the different
+2. As a HP Norton *salesperson* I want to see a list of all of the different
    products, showing product ID, description, product type and quantity available.
-#. As a HP Norton salesperson I want to see a list of the names and contact
+3. As a HP Norton salesperson I want to see a list of the names and contact
    details (address, phone number and email) of all customers who have rented a certain product.
 
 Here is what you need to do:
 ----------------------------
-#. Create a product database with attributes that reflect the contents of the
+1. Create a product database with attributes that reflect the contents of the
    csv file.
-#. Import all data in the csv files into your MongoDB implementation.
-#. Write queries to retrieve the product data.
-#. Write a query to integrate customer and product data.
+2. Import all data in the csv files into your MongoDB implementation.
+3. Write queries to retrieve the product data.
+4. Write a query to integrate customer and product data.
 
 
 Other requirements:
@@ -49,8 +49,6 @@ the same order.
 
     For example:
 
-    ..
-
     {'prd001':{'description':'60-inch TV stand','product_type':'livingroom','quantity_available':'3'},'prd002':{'description':'L-shaped sofa','product_type':'livingroom','quantity_available':'1'}}
 
 - *show_rentals(product_id)*: Returns a Python dictionary with the following user information from users that have rented products matching *product_id*: 
@@ -61,8 +59,6 @@ the same order.
     - email.
 
     For example:
-
-    ..
 
     {'user001':{'name':'Elisa Miles','address':'4490 Union Street','phone_number':'206-922-0882','email':'elisa.miles@yahoo.com'},'user002':{'name':'Maya Data','address':'4936 Elliot Avenue','phone_number':'206-777-1927','email':'mdata@uw.edu'}}
 

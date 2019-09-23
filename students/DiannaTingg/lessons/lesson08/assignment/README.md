@@ -20,8 +20,8 @@ To summarize:
 Here is what you need to do:
 ----------------------------
 
-#. Create a python module called *inventory.py*, to replace the existing spreadsheet. This file will contain all the functions used for this assignment.
-#. Create a function called *add_furniture* that takes the following input parameters:
+1. Create a python module called *inventory.py*, to replace the existing spreadsheet. This file will contain all the functions used for this assignment.
+2. Create a function called *add_furniture* that takes the following input parameters:
     - *invoice_file*
     - *customer_name*
     - *item_code*
@@ -31,8 +31,6 @@ Here is what you need to do:
     This function will create *invoice_file* (to replace the spreadsheet's data) if it doesn't exist or append a new line to it if it does. After adding a few items to the
     same file, the file created by *add_furniture* should look something like this:
 
-    ::
-
         Elisa Miles,LR04,Leather Sofa,25.00
         Edward Data,KT78,Kitchen Table,10.00
         Alex Gonzales,BR02,Queen Mattress,17.00
@@ -40,7 +38,7 @@ Here is what you need to do:
 
     You can create a starter file in this format for testing, or you can have your add function do it.
 
-#. Create a function called *single_customer*:
+3. Create a function called *single_customer*:
     - Input parameters: *customer_name*, *invoice_file*.
     - Output: Returns a function that takes one parameter, *rental_items*.
     
@@ -68,9 +66,6 @@ The layout of the csv will be something like this:
 as shown below.
 
 The idea is for the single_customer() function to return a new function (with a fixed customer name and destination inventory file) that will add all items in a source file to the overall inventory under a single customer name. Internally, single_customer() should leverage add_furniture() by fixing the first two parameters.
-
-
-.. code-block:: python
 
     from inventory import *
     add_furniture("rented_items.csv", "Elisa Miles", "LR04", "Leather Sofa", 25)

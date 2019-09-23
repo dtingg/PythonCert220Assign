@@ -1,6 +1,4 @@
-##########
-Assignment
-##########
+# Assignment
     
 In this lesson's assignment we are going to apply the functional
 programming techniques we have learned to improve code that we have
@@ -26,12 +24,12 @@ that behavior is called, is named *refactoring*.
 
 So here is our refactoring assignment:
 
-#. Using comprehensions, iterators / iterables, and generators appropriately,
+1. Using comprehensions, iterators / iterables, and generators appropriately,
    and the assignment 3 data, write data to your customer
    database and read / display it.
-#. Verify existing unit tests still function correctly.
-#. If necessary, update your tests to show the data is being maintained correctly in the database.
-#. Add code to log all database data changes (adds, amends, deletes) to a file called db.log.
+2. Verify existing unit tests still function correctly.
+3. If necessary, update your tests to show the data is being maintained correctly in the database.
+4. Add code to log all database data changes (adds, amends, deletes) to a file called db.log.
 
 Be sure to consult the lesson 3 assignment for details of the functionality.
 

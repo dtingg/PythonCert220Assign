@@ -1,6 +1,4 @@
-##########
-Assignment
-##########
+# Assignment
 
 Here is what you need to do:
 ============================
@@ -33,7 +31,6 @@ numbers of records). Make some notes on your conclusions.
 Submission
 ----------
 Submit your revised database.py, the output file and your conclusions.
-
 
 Tips
 ----
